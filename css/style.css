@@ -67,8 +67,11 @@ li{
 }
 
 @media (min-width: 1270px){
+	.header__main {
+		text-align: center;
+	}
 	.header__tagline{
-		max-width: 613px;
+		flex-direction: column;
 	}
 	.contact{
 		padding-top: 200px;
@@ -84,7 +87,6 @@ li{
 		display: flex;
 		justify-content: space-between;
 	}
-
 	.phone_number{
 		font-size: 24px;	
 	}
@@ -96,12 +98,11 @@ li{
 	.header__title-item:last-of-type{
 		font-size: 90px;
 	}
-
 	.header__main-btn{
 		width: 613px;
 		font-size: 24px;
 	}
-	
+		
 	.about__us-table-td{
 		padding: 10px 25px 10px 0;
 	}
@@ -118,19 +119,36 @@ li{
 	.how-to__box-list{
 		display: none;
 	}
+
+	.about__us-img_1 {
+		width: 500px;
+	}
+
+	.about__us-img_2 {
+		width: 500px;
+	}
+
+	.about__us-img_3 {
+		width: 500px;
+		margin-right: 100px;
+	}
 	
 	.about__us-img_2{
 		margin-left: 100px;
 	}
 
+	.main_title{
+		font-size: 48px;
+	}
+
 	.footer_text p:last-of-type{
 		padding-top: 50px;
 	}
-
+	
 	.footer_text{
 		max-width: 165px;
 	}
-
+	
 	.special_offer-inner {
 		padding: 40px 135px 40px 132px;
 	}
@@ -139,7 +157,6 @@ li{
 		width: 500px;
 		margin-top: 200px;
 	}
-
 	.header_menu ul{
 		display: flex;
 		justify-content: space-between;
@@ -159,7 +176,6 @@ li{
 		text-align: center;
 		transition-duration: 0.3s;
 	}
-
 	.footer_menu {
 		margin-left: 60px;
 	}
